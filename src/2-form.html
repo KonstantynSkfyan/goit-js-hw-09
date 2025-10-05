@@ -8,12 +8,31 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <main>
+    <header>
       <div class="container">
         <h1 class="main-title">
           <a class="back-link" href="./index.html">Go back</a>
           <span class="main-title-gradient">Form</span>
         </h1>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <form class="feedback-form" autocomplete="off">
+          <label class="feedback-label">
+            Email
+            <input class="feedback-input" type="email" name="email" autofocus />
+          </label>
+          <label class="feedback-label">
+            Message
+            <textarea
+              class="feedback-textarea"
+              name="message"
+              rows="8"
+            ></textarea>
+          </label>
+          <button class="feedback-button" type="submit">Submit</button>
+        </form>
       </div>
     </main>
     <script type="module" src="./js/2-form.js"></script>

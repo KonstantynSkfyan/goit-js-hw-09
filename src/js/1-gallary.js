@@ -90,8 +90,6 @@ const createImg = (selector, items) => {
 
 createImg('.gallery', images);
 
-const gallery = document.querySelector('.gallery');
-
 const lightbox = new SimpleLightbox('.gallery a.gallery-link', {
   captionsData: 'alt',
   captionDelay: 250,
